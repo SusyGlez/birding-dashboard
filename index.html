@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/icon128.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Birding Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="front">
+          <video autoplay loop>
+            <source src="videos/snow-bunting.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="backside">
+          <p id="habitat" class="habitat"></p>
+          <p id="diet" class="diet"></p>
+        </div>
+      </div>
+      <div class="bird-info">
+        <h3 id="phonetic" class="name"></h3>
+        <p id="description" class="description"></p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>
