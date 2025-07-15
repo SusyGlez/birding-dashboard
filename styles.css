@@ -66,6 +66,7 @@ video {
   align-items: center;
   text-align: center;
   transform: rotateY(180deg);
+  padding: 50px;
 }
 
 .card:hover .front {
@@ -97,17 +98,17 @@ video {
 }
 
 .habitat {
-  font-family: "Quicksand", regular;
+  font-family: "Zeyada", regular;
   font-style: italic;
-  font-size: 18px;
+  font-size: 32px;
   color: #4e370e;
   margin-top: 20px;
 }
 
 .diet {
-  font-family: "Quicksand", regular;
+  font-family: "Zeyada", regular;
   font-style: italic;
-  font-size: 18px;
+  font-size: 32px;
   color: #4e370e;
   margin-top: 10px;
 }
