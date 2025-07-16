@@ -96,8 +96,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Update bird information
   birdPhoneticElement.textContent = selectedBird.phonetic;
   birdDescriptionElement.textContent = selectedBird.description;
-  birdHabitatElement.textContent = `Habitat: ${selectedBird.habitat}`;
-  birdDietElement.textContent = `Diet: ${selectedBird.diet}`;
+  birdHabitatElement.textContent = selectedBird.habitat;
+  birdDietElement.textContent = selectedBird.diet;
   videoElement.src = selectedBird.video;
   videoElement.parentElement.load();
 

@@ -64,9 +64,13 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   transform: rotateY(180deg);
   padding: 50px;
+  font-family: "Zeyada", regular;
+  font-style: italic;
+  font-size: 32px;
+  color: #4e370e;
+  gap: 20px;
 }
 
 .card:hover .front {
@@ -97,18 +101,13 @@ video {
   gap: 70px;
 }
 
-.habitat {
-  font-family: "Zeyada", regular;
-  font-style: italic;
-  font-size: 32px;
-  color: #4e370e;
-  margin-top: 20px;
+.habitat,
+.diet {
+  display: flex;
 }
 
-.diet {
-  font-family: "Zeyada", regular;
-  font-style: italic;
-  font-size: 32px;
-  color: #4e370e;
-  margin-top: 10px;
+.habitat-title,
+.diet-title {
+  text-decoration: underline;
+  margin-right: 10px;
 }
