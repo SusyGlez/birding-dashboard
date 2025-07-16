@@ -66,6 +66,18 @@ document.addEventListener("DOMContentLoaded", () => {
       habitat: "Forests, deserts, urban areas",
       diet: "Mammals, birds, reptiles",
     },
+    // Add the great crested grebe
+    {
+      name: "Great Crested Grebe",
+      phonetic: "greyt kres-tid greyb",
+      video: "videos/great-crested-grebe.mp4",
+      colors: ["#f0f8ff", "#dcdcdc"], // Light blue to light gray
+      description:
+        "The Great Crested Grebe is a striking water bird known for its elaborate courtship displays and distinctive black double crest. It has a slender body and long neck, often seen gliding gracefully on lakes and large ponds. During the breeding season, it develops a striking black and white plumage with a distinctive crest, making it one of the most recognizable water birds.",
+      wingspan: "90-100 cm",
+      habitat: "Lakes, large ponds, coastal waters",
+      diet: "Fish, aquatic invertebrates",
+    },
   ];
 
   const birdPhoneticElement = document.getElementById("phonetic");
